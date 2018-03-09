@@ -21,11 +21,17 @@
   height: 500px;
 }
 
+.btn-go {
+  background-color: #663399;
+  color:white;
+}
+
 /*navbar*/
 .navbar {
   margin-bottom:0;
-  background:#34495e;
+  background: #663399;
   color:white;
+  border-bottom:2px solid white;
 }
 
 .navbar-brand {
