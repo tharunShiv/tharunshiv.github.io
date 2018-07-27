@@ -20,8 +20,23 @@
   #about {
     padding: 5px;
   }
-
   .bio p {
     font-size: 1rem;
+  }
+  #work {
+    padding: 1rem 5px;
+  }
+  .projects img:hover {
+    opacity: 1;
+  }
+  #banner h5 {
+    font-size: 1rem;
+  }
+  #contact {
+    padding: 1rem 5px;
+  }
+  .boxes div {
+    font-size: 1rem;
+    padding: 10px;
   }
 }

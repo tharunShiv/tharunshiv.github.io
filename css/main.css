@@ -234,7 +234,7 @@ main {
   padding: 1rem;
   background: #0c080c;
   color: #fff;
-  height: 60px; }
+  min-height: 60px; }
 
 #cursor {
   font-weight: 2000; }
