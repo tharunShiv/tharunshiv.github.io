@@ -239,6 +239,11 @@ main {
 #cursor {
   font-weight: 2000; }
 
+#banner {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
