@@ -1,0 +1,17 @@
+@media screen and (max-width: 700px) {
+  h1.lg-heading,
+  h2.lg-heading {
+    font-size: 2rem;
+  }
+  h1.sm-heading,
+  h2.sm-heading {
+    font-size: 1rem;
+  }
+  .menu .nav-link {
+    font-size: 1rem;
+  }
+  ul.menu-nav,
+  div.menu-branding {
+    min-height: 35vh;
+  }
+}

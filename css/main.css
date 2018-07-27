@@ -279,7 +279,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
@@ -289,3 +289,11 @@ main {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 600px) {
+  h1.lg-heading,
+  h2.lg-heading {
+    font-size: 2rem; }
+  h1.sm-heading,
+  h2.sm-heading {
+    font-size: 1rem; } }
