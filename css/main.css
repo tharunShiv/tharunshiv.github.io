@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #00090e;
+    background: #1a111c;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #011A27;
+    background: #291b2c;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #E6DF44; }
+      border: solid 3px #cca969; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #E6DF44; }
+      color: #cca969; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #E6DF44; }
+      color: #cca969; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -94,25 +94,25 @@
   box-sizing: border-box; }
 
 body {
-  background: #011A27;
+  background: #291b2c;
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(1, 26, 39, 0.9); }
+      background: rgba(41, 27, 44, 0.9); }
 
 h1,
 h2,
@@ -128,7 +128,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(1, 33, 49, 0.5); }
+    background: rgba(47, 31, 50, 0.5); }
 
 a {
   color: #fff;
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #E6DF44; }
+  color: #cca969; }
 
 main {
   padding: 4rem;
@@ -150,7 +150,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #E6DF44;
+        color: #cca969;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -160,13 +160,13 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #E6DF44 3px solid; }
+    border: #cca969 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -177,9 +177,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #022b40;
+    background: #38253c;
     padding: 0.5rem;
-    border-bottom: #E6DF44 5px solid; }
+    border-bottom: #cca969 5px solid; }
 
 .projects {
   display: grid;
@@ -190,7 +190,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #E6DF44;
+      border-color: #cca969;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -207,7 +207,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #E6DF44;
+      background: #cca969;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -218,7 +218,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #E6DF44;
+    background: #cca969;
     color: #000; }
 
 .btn-dark {
@@ -226,15 +226,18 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #2db4fa;
+  background: #b18db9;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: black;
+  background: #0c080c;
   color: #fff;
   height: 60px; }
+
+#cursor {
+  font-weight: 2000; }
 
 @media screen and (min-width: 1171px) {
   .projects {
