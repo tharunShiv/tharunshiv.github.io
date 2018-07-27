@@ -43,6 +43,7 @@ $(document).ready(function() {
   }, 5000);
   captionEl = $("#caption");
   type();
+  $(".materialboxed").materialbox();
 });
 
 function testTypingEffect() {
