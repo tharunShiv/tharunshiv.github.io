@@ -98,7 +98,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
@@ -146,7 +146,7 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 6rem; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
@@ -178,8 +178,15 @@ main {
     grid-area: job3; }
   .about-info .job {
     background: #38253c;
-    padding: 0.5rem;
-    border-bottom: #cca969 5px solid; }
+    padding: 1.5rem;
+    border-bottom: #cca969 5px solid;
+    max-width: 443px;
+    margin: auto;
+    max-height: 257px; }
+    .about-info .job h3 {
+      font-weight: bold; }
+    .about-info .job h5 {
+      opacity: 0.6; }
 
 .projects {
   display: grid;
