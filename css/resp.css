@@ -39,4 +39,13 @@
     font-size: 1rem;
     padding: 10px;
   }
+  .about-info .job {
+    max-height: 600px;
+  }
+  footer {
+    margin-top: 1rem;
+  }
+  .work-nav .nav-link {
+    padding: 2px 0;
+  }
 }
