@@ -14,4 +14,7 @@
   div.menu-branding {
     min-height: 35vh;
   }
+  ul.menu-nav.show {
+    justify-content: flex-start;
+  }
 }
