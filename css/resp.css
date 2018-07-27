@@ -17,4 +17,11 @@
   ul.menu-nav.show {
     justify-content: flex-start;
   }
+  #about {
+    padding: 5px;
+  }
+
+  .bio p {
+    font-size: 1rem;
+  }
 }
